@@ -18,7 +18,7 @@
    - 3.5 [Gradient-Step Plug-and-Play (GS-PnP)](#35-gradient-step-plug-and-play-gs-pnp)
    - 3.6 [Synthetic Data Generation](#36-synthetic-data-generation)
 4. [Notebook Walkthrough](#4-notebook-walkthrough)
-   - 4.1 [`project_final.ipynb`](#41-project_finalipynb)
+   - 4.1 [`Hyperspectral_PnP.ipynb`](#41-project_finalipynb)
    - 4.2 [`images/`](#42-images)
 5. [Installation & Usage](#5-installation--usage)
 6. [Evaluation](#6-evaluation)
@@ -211,7 +211,7 @@ Synthetic generation is useful because it provides access to the **ground truth*
 
 ## 4. Notebook Walkthrough
 
-### 4.1 `project_final.ipynb`
+### 4.1 `Hyperspectral_PnP.ipynb`
 
 This notebook is the main entry point of the repository. It is expected to contain the full experimental pipeline:
 
@@ -261,7 +261,7 @@ Additional packages may be required depending on the denoiser architecture, data
 ### Launch the notebook
 
 ```bash
-jupyter notebook project_final.ipynb
+jupyter notebook Hyperspectral_PnP.ipynb
 ```
 
 Then execute the cells step by step to reproduce the experiments and visualizations.
